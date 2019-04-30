@@ -13,7 +13,7 @@ class App extends React.Component {
     return (
       <div>
         <Navigation logoTitle="Erick Ortiz' Portfolio"  />
-        <Header title="Erick Ortiz" subtitle="Feeling snazzy"/>
+        <Header title="Erick Ortiz" background="img/bg.png"/>
         <Projects/>
       </div>
     );
