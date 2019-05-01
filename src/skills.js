@@ -19,27 +19,20 @@ class Skills extends React.Component {
     return(
       <div style={myStyle}>
 
-        <img class="title" src="img/headers/lan.png"  alt="not available"/>
+        <img class="title" style={{paddingLeft:'125px', paddingRight:'125px'}} src="img/headers/lan.png"  alt="not available"/>
 
         <CardGroup style={{paddingLeft:'40px', paddingRight:'40px', paddingTop:'20px', paddingBottom:'40px'}}>
           {PostDataLan.map((variable, index) => {
 
-            if(variable.title === 'ReactJS') {
-              return <Card bg="light">
-                      <Card.Header as="h5" style={{textAlign:'center'}}>{variable.title}</Card.Header>
-                      <Card.Img  class="App-logo" variant="top" src={variable.image} style={{ justifyContent: 'center', alignItems: 'center', minWidth: '200px', height: 'undefined', paddingLeft:'40px', paddingRight:'40px', paddingTop:'40px', paddingBottom:'40px'}}/>
-                    </Card>
-            }
-            else {
             return <Card bg="light">
                     <Card.Header as="h5" style={{textAlign:'center'}}>{variable.title}</Card.Header>
                     <Card.Img variant="bottom" src={variable.image} style={{ justifyContent: 'center', alignItems: 'center', minWidth: '200px', height: 'undefined', paddingLeft:'40px', paddingRight:'40px', paddingTop:'40px', paddingBottom:'40px'}}/>
                   </Card>
-                }
+
           })}
         </CardGroup>;
 
-        <img class="title" src="img/headers/tech.png" alt="not available"/>
+        <img class="title" style={{paddingLeft:'125px', paddingRight:'125px'}} src="img/headers/tech.png" alt="not available"/>
           <CardGroup style={{paddingLeft:'40px', paddingRight:'40px', paddingTop:'20px', paddingBottom:'40px'}}>
             {PostDataTech.map((variable, index) => {
               return <Card bg="light">
@@ -49,7 +42,7 @@ class Skills extends React.Component {
             })}
           </CardGroup>;
 
-          <img class="title" src="img/headers/os.png" alt="not available"/>
+          <img class="title" style={{paddingLeft:'150px', paddingRight:'150px'}}  src="img/headers/os.png" alt="not available"/>
             <CardGroup style={{paddingLeft:'400px', paddingRight:'400px', paddingTop:'20px', paddingBottom:'40px'}}>
               {PostDataOS.map((variable, index) => {
                 return <Card bg="light">

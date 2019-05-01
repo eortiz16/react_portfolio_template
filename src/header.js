@@ -18,16 +18,16 @@ class Header extends Component {
         <img class="title" src="img/headers/erick.png" alt="not available"/>
         <br/>
 
-      <div>
-        <img class="img-circle" src="img/about/erick.png" alt="Avatar" />
-  			<h1 class="cool_text">
-          I am a
-          <span class="txt-rotate" data-period="2000"
-  				      data-rotate={options}>
-          </span>
-  			</h1>
+        <div>
+          <img class="img-circle" src="img/about/erick.png" alt="Avatar" />
+    			<h1 class="cool_text">
+            I am a
+            <span class="txt-rotate" data-period="2000"
+    				      data-rotate={options}>
+            </span>
+    			</h1>
 
-  		</div>
+    		</div>
 
       </header>
     );
