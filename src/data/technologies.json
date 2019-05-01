@@ -1,0 +1,30 @@
+[
+  {
+    "image":"./img/logo/git.png",
+    "title":"Git"
+  },
+  {
+    "image":"./img/logo/mockups.png",
+    "title":"Balsamiq Mockups"
+  },
+  {
+    "image":"./img/logo/opengl.svg",
+    "title":"OpenGL"
+  },
+  {
+    "image":"./img/logo/opencv.png",
+    "title":"OpenCV"
+  },
+  {
+    "image":"./img/logo/sfml.png",
+    "title":"SFML"
+  },
+  {
+    "image":"./img/logo/wireshark.png",
+    "title":"Wireshark"
+  },
+  {
+    "image":"./img/logo/gns3.png",
+    "title":"GNS3"
+  }
+]

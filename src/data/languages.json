@@ -1,0 +1,30 @@
+[
+  {
+    "image":"./img/logo/cpp.png",
+    "title":"C++ - 11,14,17"
+  },
+  {
+    "image":"./img/logo/c.png",
+    "title":"C"
+  },
+  {
+    "image":"./img/logo/go.png",
+    "title":"GoLang"
+  },
+  {
+    "image":"./img/logo/java.png",
+    "title":"Java"
+  },
+  {
+    "image":"./img/logo/python.png",
+    "title":"Python"
+  },
+  {
+    "image":"./img/logo/js.jpg",
+    "title":"JavaScript"
+  },
+  {
+    "image":"./img/logo/react.svg",
+    "title":"ReactJS"
+  }
+]

@@ -1,0 +1,14 @@
+[
+  {
+    "image":"./img/logo/windows.png",
+    "title":"Windows"
+  },
+  {
+    "image":"./img/logo/linux.png",
+    "title":"Linux"
+  },
+  {
+    "image":"./img/logo/apple.png",
+    "title":"MacOSX"
+  }
+]

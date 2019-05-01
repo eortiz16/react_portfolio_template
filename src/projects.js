@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import SingleProject from './singleProject.js'
-import PostData from './projects.json'
+import PostData from './data/projects.json'
 
 class Projects extends Component {
 
