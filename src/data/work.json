@@ -1,0 +1,45 @@
+{
+  "logo": "./img/headers/experience.png",
+  "background":"./img/background/work.jpg",
+  "exp":[
+    {
+      "position": "Backend Software Developer",
+      "languages": "(C++, Go, and Python)",
+      "company": "Crown Sterling",
+      "time": "February 2019 - Present",
+      "description": [
+        "I work closely with an interdisciplinary team of engineers, mathematicians, and physicists.",
+        "I develop the a new post-quantum cryptography algorithm.",
+        "I architect the object-oriented design of the new system.",
+        "I develop and maintain the documentation.",
+        "I interview stakeholders to extract functional and non-functional requirements.",
+        "For speed and efficiency, the codebase is written in C++.",
+        "I work with encoding, compression, serialization, and optimization algorithms.",
+        "I use multi-threading, serialization, and compression methods to improve performance, imporve time complexity, and reduce the space complexity of our system.",
+        "I also conduct research to futher optimize our systems components."
+      ]
+    },
+    {
+      "position": "Internship - Prototype Development",
+      "languages": "(C++ and OPENCV)",
+      "company": "Fleet Managment",
+      "time": "July 2018 - September 2018",
+      "description": [
+        "I worked with an international fleet management company to develop a prototype.",
+        "The prototype automatically detected damage to fleet vehicles.",
+        "I offered advice to establish ideal conditions in the photobooth.",
+        "The prototype was built using C++ and OpenCV."
+      ]
+    },
+    {
+      "position": "Head Tutor",
+      "languages": "(C++, Java, and Assembly)",
+      "company": "Kegley Center",
+      "time": "January 2016 - June 2017",
+      "description": [
+        "I tutored Introduction to Programming, Data Structures, Object Oriented Programming, Algorithms, and more.",
+        "Additionally, I mentored students and played a leadership role in the center."
+      ]
+    }
+  ]
+}

@@ -5,10 +5,10 @@
   },
   {
     "image":"./img/logo/mockups.png",
-    "title":"Balsamiq Mockups"
+    "title":"Mockups"
   },
   {
-    "image":"./img/logo/opengl.svg",
+    "image":"./img/logo/opengl.png",
     "title":"OpenGL"
   },
   {
@@ -26,5 +26,9 @@
   {
     "image":"./img/logo/gns3.png",
     "title":"GNS3"
+  },
+  {
+    "image":"./img/logo/mongo.png",
+    "title":"MongoDB"
   }
 ]

@@ -1,0 +1,30 @@
+.title {
+  display: flex;
+  padding-top: 0px;
+  align-items: center;
+  font-size: 100px;
+  color:red;
+}
+
+.navbar {
+  font-family: 'Work Sans';
+}
+
+.navbar-brand {
+  color: white;
+  font-size: 25px;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  pointer-events: none;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

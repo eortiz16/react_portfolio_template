@@ -1,0 +1,32 @@
+{
+  "hook": "[Insert Something Quirky Here]",
+  "logo": "./img/headers/education.png",
+  "background": "./img/background/education.jpg",
+  "description": "I have my Masters of Science in Computer Science from CSU Long Beach. I also have my Bachelor of Arts in History from CSU Fullerton. Yeah, I know, how does a person go from studying the humanities to studying STEM? I suppose that it’s a fairly straight forward answer: I couldn't find employment nor be self-sufficient with my BA. This pushed me to expand the way in which my mind functions. In 2015, I started attending CSU Bakersfield in pursuit of a second bachelor's degree in computer science. In the Fall of 2017, I started my graduate program at CSULB. Long story short, I wrapped up my master’s degree in computer science in December of 2018. My biggest strength lies with my foundations as an interdisciplinary scholar. I am resilient, and I am adaptable.",
+  "schools": [
+    {
+      "logo": "./img/education/csulb.png",
+      "name": "CSU Long Beach",
+      "degree": "MS Computer Science",
+      "time": "2017 - 2018",
+      "description": "I moved back to the beautiful city of Los Angeles and began my graduate coursework in computer science in the Fall of 2017. I discovered that the topics that I am most passionate about are Algorithms and Computer Networking. I graduated with a GPA of 3.7.",
+      "hyperlink": ""
+    },
+    {
+      "logo": "./img/education/csub.png",
+      "name": "CSU Bakersfield",
+      "degree": "Undergraduate Coursework: Computer Science",
+      "time": "2015 - 2017",
+      "description": "I returned to school in 2015 and I started studying computer science again. I did not finish this degree, however, I extracted as much information as I could to be successful in my next academic endeavor.",
+      "hyperlink": ""
+    },
+    {
+      "logo": "./img/education/csuf.png",
+      "name": "CSU Fullerton",
+      "degree": "BA History",
+      "time": "2008 - 2013",
+      "description": "I began studying computer science at CSUF. Somewhere in the middle, I changed my major to history. Primarily, my emphasis focused on Russian, Japanese, and Korean history. Regardless, I never stopped coding and thinking of cool projects.",
+      "hyperlink": ""
+    }
+    ]
+  }

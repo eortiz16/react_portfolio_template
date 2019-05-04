@@ -1,0 +1,19 @@
+
+.quirk {
+  font-family: 'Work Sans';
+  color: white;
+  mix-blend-mode:difference;
+  text-align: center;
+  justify-content: center;
+  padding-top: 40px;
+}
+
+.myFont {
+    font-family: 'Work Sans';
+}
+
+.desc {
+  font-size: 20px;
+  text-align: justify;
+  justify-content: center;
+}
