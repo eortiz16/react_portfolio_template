@@ -151,7 +151,7 @@
   },
   {
     "background": "./img/oa/bg.jpg",
-    "hook": "Designing a Relational Database",
+    "hook": "Implementing the AMDIRE Model",
     "logo": "./img/oa/title.png",
     "description": "I developed a subset of artifacts as prescribed by the Artefact-based Approach to Requirements Engineering, or the AMDIRE model. This effort was team based and focuses on a software project, named One Athlete. This proposed projects aims to make the electronic medical files of athletes portable. ",
     "dropdown": {

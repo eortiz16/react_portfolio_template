@@ -11,6 +11,7 @@ class Work extends Component {
       backgroundRepeat: 'repeat',
       backgroundImage: `url("${Data.background}")`,
       marginTop: '0px',
+      paddingTop: '40px'
     };
 
     var headerStyle = {
@@ -21,7 +22,7 @@ class Work extends Component {
       <div style={myStyle}>
         <img class="title" src={Data.logo} style={headerStyle} alt=""/>
 
-        <div style={{ paddingLeft: '10vw', paddingRight: '10vw', paddingBottom: '40px' }}>
+        <div style={{ paddingLeft: '10vw', paddingBottom: '40px', paddingRight: '10vw', justifyContent:'center', margin:'auto', maxWidth: "2440px" }}>
         {Data.exp.map((variable, index) => {
           return (
             <Card>
@@ -35,7 +36,6 @@ class Work extends Component {
                 })}
                 </ul>
                 </Card.Text>
-
               </Card.Body>
             </Card>
           )

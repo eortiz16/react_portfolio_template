@@ -8,6 +8,8 @@ import Education from './education/education.js';
 import Work from './work/work.js';
 import Projects from './projects/projects.js';
 import Skills from './skills/skills.js'
+import Footer from './footer/footer.js'
+import Resume from './resume/resume.js'
 import * as serviceWorker from './serviceWorker';
 
 class App extends React.Component {
@@ -20,6 +22,8 @@ class App extends React.Component {
         <Work />
         <Skills />
         <Projects/>
+        <Resume />
+        <Footer />
       </div>
     );
   }

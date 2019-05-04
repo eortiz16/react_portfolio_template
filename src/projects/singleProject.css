@@ -11,7 +11,7 @@
   color: white;
   mix-blend-mode:difference;
   padding-top: 60px;
-  font-size: 40px;
+  font-size: 30px;
   font-style: italic;
   font-family: 'Work Sans';
 }
@@ -20,14 +20,15 @@
   color: white;
   mix-blend-mode:difference;
   padding-top: 20px;
-  font-size: 26px;
+  font-size: 20px;
   font-style: italic;
   font-family: 'Work Sans';
   text-align: justify;
   justify-content: space-around;
   overflow-wrap: break-word;
-  padding-left: 20vw;
-  padding-right: 20vw;
+  display: flex;
+  max-width: 900px;
+  margin:auto;
 }
 
 .imageGroup {

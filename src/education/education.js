@@ -26,18 +26,18 @@ class Education extends Component {
         <h2 className="quirk">{Data.hook}</h2>
         <img class="title" src={Data.logo} style={headerStyle} alt=""/>
 
-        <div style={{ paddingLeft: '10vw', paddingRight: '10vw' }}>
-          <Card>
+        <div style={{ paddingLeft: '10vw', paddingRight: '10vw', justifyContent:'center', margin:'auto', display:'flex', maxWidth: "2440px"}}>
+          <Card  style={{justifyContent:'center', margin:'auto'}}>
             <Card.Body>
               <Card.Text className="desc myFont" style={{ paddingLeft: '20px', paddingRight: '20px', paddingTop: '20px', paddingBottom: '20px' }} >{Data.description}</Card.Text>
             </Card.Body>
           </Card>
         </div>
 
-        <CardGroup style={{ paddingLeft: '10vw', paddingRight: '10vw', paddingBottom: '40px' }}>
+        <CardGroup style={{  paddingLeft: '10vw', paddingRight: '10vw', justifyContent:'center', margin:'auto', display:'flex', maxWidth: "2440px", paddingBottom: '40px' }}>
         {Data.schools.map((variable, index) => {
           return (
-            <Card style={{ width: '18rem' }}>
+            <Card style={{ justifyContent:'center'}}>
             <Card.Img style={{ width: '150px', paddingTop: '20px', paddingLeft: '20px', paddingRight: '20px', paddingBottom: '20px' }} variant="top" src={variable.logo} />
               <Card.Body >
                 <Card.Title className="myFont" style={{fontSize: '30px', paddingLeft: '20px', paddingRight: '20px'}}>{variable.name}</Card.Title>
